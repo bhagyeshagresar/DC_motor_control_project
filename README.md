@@ -1,6 +1,6 @@
 # DC Motor Control on PIC32 / NU32
 
-An embedded C project for **closed-loop position and current control of a brushed DC motor** using a **PIC32-based NU32 development board**. The system uses a **cascaded control architecture** where an outer position loop generates a current reference, and an inner current loop drives the motor through PWM. This is a final project based on the course 
+An embedded C project for closed-loop position and current control of a brushed DC motor using a PIC32-based NU32 development board. The system uses a cascaded control architecture where an outer position loop generates a current reference, and an inner current loop drives the motor through PWM. This is a final project based on the course 
 ME333: Introduction to Mechatronics at Northwestern University.
 
 ---
