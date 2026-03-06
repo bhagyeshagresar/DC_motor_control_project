@@ -47,8 +47,6 @@ The controller is implemented as a **cascaded loop**:
 This structure improves tracking performance and gives tighter control over motor torque/current behavior.
 
 ---
-![Motor driver wiring](wiring.jpeg)
-
 ![Motion control block diagram](control_system_block_diagram.jpeg)
 
 
