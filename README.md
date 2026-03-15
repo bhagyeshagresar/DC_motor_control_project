@@ -58,8 +58,7 @@ The firmware is organized into separate C modules for clarity and maintainabilit
 
 ### Main modules
 
-- `main.c`  
-  The command-and-control hub.  
+- `main.c`   
   Runs a menu-driven UART loop that listens for single-character commands from a Python client.  
   Commands can be used to:
   - read encoder values
