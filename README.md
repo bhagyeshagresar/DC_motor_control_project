@@ -7,7 +7,7 @@ ME333: Introduction to Mechatronics at Northwestern University.
 
 ## Project Overview
 
-This project implements a classic nested motor control system in embedded C on the PIC32MX795F512H (NU32 development board).
+This project was an attempt to implement a classic nested motor control system in embedded C on the PIC32MX795F512H (NU32 development board).
 
 At a high level:
 
@@ -16,7 +16,7 @@ At a high level:
 - A **quadrature encoder** provides position feedback.
 - An **INA219 current sensor** provides measured motor current.
 - A **Python client** communicates with the PIC32 over UART for testing, plotting, and gain tuning.
-
+The implementation present in this repo only covers the inner current controller that was tested uing the ITEST mode.
 ---
 
 ## Hardware Stack
@@ -35,7 +35,7 @@ The system includes the following hardware components:
 
 ## Control Architecture
 
-The controller is implemented as a **cascaded loop**:
+Flow of **cascaded loop**:
 
 1. The **position controller** runs as the outer loop.
 2. It generates a **reference current** based on position error.
